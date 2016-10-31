@@ -1,0 +1,134 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*The main Drawing Calculation*/
+
+div#container{
+  border: 0px solid black; 
+}
+
+
+div.col-one{
+  border: 1px solid black; 
+  height: 15em; 
+  margin: 0 1% 0 0;
+  float: left; 
+  width:13%;
+}
+
+/*The split Drawing Calculation*/
+div.row1
+{
+  height: 18%; 
+  border: 1px solid black;
+}
+
+div.row2
+{
+  height: 67%; 
+  border: 1px solid black;
+}
+div.row3
+{
+  height: 12.5%; 
+  border: 1px solid black;
+}
+
+div#last div.row2{
+  height: 6% !important;
+}
+
+
+div#last div.row3{
+  height: 73.5% !important;
+}
+
+
+div.sub-col1{
+  border: 0px solid black; 
+  float:left;
+  height:100%;
+}
+
+
+.col2{
+  width:67.6%;
+}
+
+
+.col1{
+  width:31.6%;
+}
+
+
+div.sub-row1{
+  border: 1px solid black;
+  height: 49.8%;
+
+}
+
+
+div.sub-row21,div.sub-row22{
+  float:left;
+  height: 97%;
+
+}
+
+
+div.sub-row21{
+  width: 58.6%;
+  border: 1px solid black;
+}
+
+
+div.sub-row22{
+  width: 39.7%;
+  border: 0px solid black;
+
+}
+
+div.sub-col2 {
+    border: 1px solid black;
+    float:right;
+    height:100%;
+}
+
+div.sub2-row1{
+  border: 1px solid black;
+  height: 69%;
+}
+
+div.sub2-row2{
+  border: 0.5px solid black;
+  height: 28%;
+}
+
+div.sub-col3 {
+    border: 0px solid black;
+    float:right;
+    height:100%;
+    width: 31.7%
+}
+
+
+
+
+div.sub1-col3 {
+    height: 83%; 
+    width: 67%;
+    border: 1px solid black;
+    float: left;
+}
+div.sub-col-col1{
+  border: 1px solid black;
+  height: 32.4%;
+   width:100%
+}
+
+div.sub-col1-col {
+  border: 1px solid black;
+  height: 45%;
+  width: 42%;
+}
